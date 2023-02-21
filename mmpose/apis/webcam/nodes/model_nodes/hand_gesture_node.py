@@ -90,7 +90,7 @@ class HandGestureRecognizerNode(Node):
         ...    'gesture/mtut/'
         ...    'i3d_nvgesture_bbox_112x112_fps15-363b5956_20220530.pth',
         ...     input_buffer='det_result',
-        ...     output_buffer='geature',
+        ...     output_buffer='gesture',
         ...     fps=15)
 
         >>> from mmpose.apis.webcam.nodes import NODES
